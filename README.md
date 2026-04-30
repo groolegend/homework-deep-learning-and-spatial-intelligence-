@@ -30,8 +30,8 @@ hw1
 ## 环境配置
 
 ```bash
-uv venv hw1 --python 3.12 --managed-python --seed
-source hw1/bin/activate
+uv venv hw1_env --python 3.12 --managed-python --seed
+source hw1_env/bin/activate
 uv pip install numpy matplotlib
 ```
 
@@ -39,7 +39,7 @@ uv pip install numpy matplotlib
 
 ## 运行方式
 
-### 训练模型
+### 从0训练模型
 
 ```bash
 python main.py train
