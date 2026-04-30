@@ -11,13 +11,17 @@
 将数据放置在项目目录下：
 
 ```
-git clone
+git clone https://github.com/groolegend/homework-deep-learning-and-spatial-intelligence-.git
 
-EuroSAT_RGB/
-  ├── AnnualCrop/
-  ├── Forest/
-  ├── Residential/
-  └── ...
+cd hw1
+
+hw1
+ ├── EuroSAT_RGB/
+      ├── AnnualCrop/
+      ├── Forest/
+      ├── Residential/
+      └── ...
+  
 ```
 
 
